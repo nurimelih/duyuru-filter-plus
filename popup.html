@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Forum Filter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 10px;
+    }
+    
+    h2 {
+      color: #333;
+      margin-top: 0;
+    }
+    
+    .input-container {
+      display: flex;
+      margin-bottom: 10px;
+    }
+    
+    #authorInputField {
+      flex-grow: 1;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px 0 0 4px;
+    }
+    
+    #addButton {
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 0 4px 4px 0;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    
+    #addButton:hover {
+      background-color: #357ae8;
+    }
+    
+    .author-list {
+      max-height: 200px;
+      overflow-y: auto;
+      margin-top: 10px;
+      border: 1px solid #eee;
+      border-radius: 4px;
+    }
+    
+    .author-item {
+      padding: 8px 10px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .author-item:last-child {
+      border-bottom: none;
+    }
+    
+    .author-controls {
+      display: flex;
+      gap: 5px;
+    }
+    
+    .toggle-btn, .remove-btn {
+      display: inline-block;
+      min-width: 35px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      background-color: #f0f0f0;
+      color: #333;
+      border-radius: 3px;
+      cursor: pointer;
+      user-select: none;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 0 2px;
+    }
+    
+    .toggle-btn:hover, .remove-btn:hover {
+      background-color: #e0e0e0;
+    }
+    
+    .toggle-btn.active-S {
+      background-color: #ffe0b2;
+      color: #e65100;
+    }
+    
+    .toggle-btn.active-C {
+      background-color: #c8e6c9;
+      color: #2e7d32;
+    }
+    
+    .toggle-btn.active-T {
+      background-color: #bbdefb;
+      color: #0d47a1;
+    }
+    
+    .remove-btn {
+      background-color: #ffebee;
+      color: #d32f2f;
+    }
+    
+    .footer {
+      margin-top: 15px;
+      font-size: 11px;
+      color: #666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>EksiDuyuru Filter</h2>
+  <p>Add authors whose content you want to hide:</p>
+  
+  <div class="input-container">
+    <input type="text" id="authorInputField" placeholder="Enter author name">
+    <button id="addButton">Add</button>
+  </div>
+  
+  <div id="authorListContainer" class="author-list">
+    <!-- Author list will be populated here -->
+  </div>
+  
+  <div class="footer">
+    <p>Filter mode: S=Questions | C=Answers | T=Both</p>
+    <p>A fork of "Duyuru Plus Plus" extension</p>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 
