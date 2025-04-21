@@ -3,8 +3,8 @@
 
   "manifest_version": 3,
   "name": "Duyuru Filter Plus",
-  "version": "1.0.0",
-  "description": "Filters posts and replies from specified authors on Eksiduyuru. A fork of 'Duyuru Plus Plus'.",
+  "version": "1.0",
+  "description": "Eksiduyuru'da belirtilen yazarların gönderilerini ve yanıtlarını filtreler.",
   "content_scripts": [
     {
       "matches": [
@@ -32,5 +32,5 @@
     "48": "icons/48.png",
     "128": "icons/128.png"
   },
-  "author": "Your Name"
+  "author": "melih"
 }

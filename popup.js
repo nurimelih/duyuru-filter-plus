@@ -224,7 +224,7 @@ function loadBlockedAuthors() {
       debugLog('No blocked authors found');
       const emptyMessage = document.createElement('div');
       emptyMessage.className = 'author-item';
-      emptyMessage.textContent = 'No authors in block list';
+      emptyMessage.textContent = 'Engellenen yazar yok';
       authorListContainer.appendChild(emptyMessage);
       return;
     }

@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Forum Filter</title>
+  <title>Duyuru Filter Plus</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -111,25 +111,34 @@
       color: #666;
       text-align: center;
     }
+    
+    .footer-info {
+      font-size: 11px;
+      color: #666;
+      margin-top: 5px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
-  <h2>EksiDuyuru Filter</h2>
-  <p>Add authors whose content you want to hide:</p>
+  <h2>EksiDuyuru Filtresi</h2>
+  <p>İçeriğini gizlemek istediğiniz yazarları ekleyin:</p>
   
   <div class="input-container">
-    <input type="text" id="authorInputField" placeholder="Enter author name">
-    <button id="addButton">Add</button>
+    <input type="text" id="authorInputField" placeholder="Yazar adı girin">
+    <button id="addButton">Ekle</button>
   </div>
   
   <div id="authorListContainer" class="author-list">
     <!-- Author list will be populated here -->
   </div>
   
-  <div class="footer">
-    <p>Filter mode: S=Questions | C=Answers | T=Both</p>
-    <p>A fork of "Duyuru Plus Plus" extension</p>
-  </div>
+  <div id="output"></div>
+  
+  <footer class="w3-container w3-padding w3-light-grey">
+    <p>Duyuru Filter Plus</p>
+    <p class="footer-info">Filtreleme modu: S=Sorular | C=Cevaplar | T=Hepsi</p>
+  </footer>
   
   <script src="popup.js"></script>
 </body>

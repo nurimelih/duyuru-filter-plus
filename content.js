@@ -1,5 +1,5 @@
-// Content Script for Forum Filter
-// A fork of "Duyuru Plus Plus"
+// Duyuru Filter Plus
+// inspired by duyuru plus plus extension
 
 // Debug mode - set to true to enable console logs
 const DEBUG = false;
