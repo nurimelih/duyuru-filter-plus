@@ -1,0 +1,18 @@
+# Chrome Web Store Permission Justifications (English)
+
+## Single Purpose Description
+Duyuru Filter Plus allows users to filter posts and replies from specified authors on the Eksiduyuru platform, enhancing the browsing experience by giving users control over whose content they see.
+
+## Permission Justifications
+
+### storage permission
+This extension uses chrome.storage API to save the list of blocked authors and filtering preferences. This storage is necessary to retain user settings between browser sessions so users don't need to reconfigure their preferences each time. All data is stored locally and never transmitted externally.
+
+### Host permission (*://*.eksiduyuru.com/*)
+This extension only works on the Eksiduyuru website and needs to access the DOM to filter authors' posts and replies. This permission is limited to the specified website only and is essential for the extension's core functionality of hiding content from user-selected authors.
+
+### Remote code
+This extension does not use remote code. All functionality is contained within the extension package and no external code is loaded.
+
+## Data Usage Statement
+This extension does not collect or transmit any user data to external servers. All blocked author lists and filtering preferences are stored locally in the user's browser only. The extension contains no analytics or tracking code and does not share user data with third parties. 

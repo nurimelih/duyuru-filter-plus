@@ -1,0 +1,25 @@
+# Duyuru Filter Plus - Chrome Web Store Açıklaması
+
+## Kısa Açıklama
+Eksiduyuru'da belirtilen yazarların gönderilerini ve yanıtlarını filtreler.
+
+## Detaylı Açıklama
+Duyuru Filter Plus, Eksiduyuru platformunda deneyiminizi özelleştirmenize olanak tanıyan basit ve kullanışlı bir eklentidir. Bu araç sayesinde içeriğini görmek istemediğiniz yazarların gönderilerini ve yanıtlarını gizleyebilirsiniz.
+
+### Özellikler:
+- İstenmeyen yazarları kolayca engelleyin
+- Yazarın sorularını mı, cevaplarını mı yoksa her ikisini de mi filtrelemek istediğinizi seçin (S/C/T)
+- Engellenen içeriklerin sayısını görün
+- Basit ve sezgisel kullanıcı arayüzü
+- Tüm işlemler tarayıcınızda yerel olarak gerçekleşir ve hiçbir veri dışarı gönderilmez
+
+### Nasıl Kullanılır:
+1. Eksiduyuru sitesini ziyaret edin
+2. Eklenti simgesine tıklayın
+3. Engellemek istediğiniz yazarın adını girin ve "Ekle" butonuna tıklayın
+4. Filtreleme modunu seçin: S (sadece sorular), C (sadece cevaplar) veya T (hem sorular hem cevaplar)
+5. Engellenmiş yazarın içeriği artık görünmeyecektir
+
+Bu eklenti sadece Eksiduyuru sitesinde çalışır ve sadece sizin belirlediğiniz yazarların içeriğini filtreler.
+
+Gizlilik notu: Bu eklenti hiçbir kullanıcı verisini toplamaz veya dışarı göndermez. Tüm engelleme listeniz yalnızca yerel olarak tarayıcınızda saklanır. 

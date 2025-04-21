@@ -1,0 +1,23 @@
+# Duyuru Filter Plus - Gizlilik Politikası ve İzin Gerekçeleri
+
+## Tek Amaç Açıklaması
+Duyuru Filter Plus, Eksiduyuru platformunda kullanıcıların belirledikleri yazarların gönderilerini ve yanıtlarını filtrelemelerine olanak tanır. Eklenti, yalnızca kullanıcının Eksiduyuru sitesindeki deneyimini özelleştirmek için tasarlanmıştır.
+
+## İzin Gerekçeleri
+
+### storage İzni
+**Gerekçe:** Bu eklenti, kullanıcının engellediği yazarların listesini ve filtreleme tercihlerini kaydetmek için chrome.storage API'sini kullanır. Kullanıcının eklentiyi her kullandığında yeniden yapılandırma ihtiyacını ortadan kaldırmak için bu verilerin saklanması gereklidir. Bu bilgiler yalnızca cihazda yerel olarak saklanır ve asla harici sunuculara aktarılmaz.
+
+### Ana Makine İzni (*://*.eksiduyuru.com/*)
+**Gerekçe:** Eklenti yalnızca Eksiduyuru web sitesinde çalışır ve bu sitedeki yazarların gönderilerini ve yanıtlarını filtrelemek için DOM'a erişmesi gerekir. Bu izin, eklentinin yalnızca belirtilen web sitesinde çalışmasını sağlar ve kullanıcının belirlediği yazarların içeriklerini gizleme işlevini yerine getirebilmesi için gereklidir.
+
+### Uzak Kod Kullanımı
+**Gerekçe:** Bu eklenti uzak kod kullanmamaktadır. Tüm kod, eklentinin yerel paketinde bulunur ve dış kaynaklardan kod yüklenmez.
+
+## Veri Kullanımı ve Gizlilik
+- Eklenti hiçbir kullanıcı verisini harici sunuculara göndermez.
+- Tüm engellenen yazar listesi ve filtreleme tercihleri yalnızca kullanıcının tarayıcısında yerel olarak saklanır.
+- Eklenti hiçbir analitik veya izleme kodu içermez.
+- Kullanıcı verilerini üçüncü taraflarla paylaşmıyoruz.
+
+Bu eklentinin kullanımı, Google'ın Geliştirici Program Politikaları'na ve ilgili tüm gizlilik düzenlemelerine uygundur. 
