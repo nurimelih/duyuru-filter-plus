@@ -8,5 +8,10 @@ Chrome extension for [Ekşi Duyuru](https://www.eksiduyuru.com/).
 - Block user replies
 
 
-https://github.com/user-attachments/assets/26388741-1d1c-4be9-8a8f-b13a75350ccc
+
+
+https://github.com/user-attachments/assets/6d031fa0-e46b-47aa-83f5-2f0c897f43f5
+
+
+
 note: selected users are just for example, selected randomly.
